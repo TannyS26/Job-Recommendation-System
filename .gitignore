@@ -1,0 +1,27 @@
+# Environment Files
+*.pem
+*.ppk
+*.env
+*.elasticbeanstalk
+
+# Editor Setting
+.vscode
+
+# Virtual Environment
+env
+
+# Pycache Files
+*/__pycache__/*
+*/migrations/__pycache__/*
+*/templatetags/__pycache__/*
+*/management/*/__pycache__/*
+
+# Database
+db.sqlite3
+
+# Media
+media/*
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
